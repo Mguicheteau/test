@@ -167,10 +167,9 @@ function startCamera() {
 
  Html5Qrcode.getCameras().then(devices => {
     if (devices && devices.length) {
-      const cameraId = devices[0].id;
-
       html5QrcodeScanner.start(
-        cameraId,
+		{ facingMode: "environment" },
+		
         {
           fps: 10,
           qrbox: { width: 250, height: 250 }
