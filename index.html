@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner QR Code - Participants</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Scanner QR Code</h1>
+            <p>Scannez un QR code ou recherchez un ID participant</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-button active" data-tab="scanner">Scanner QR Code</button>
+            <button class="tab-button" data-tab="search">Rechercher ID</button>
+        </div>
+
+        <div class="tab-content active" id="scanner">
+            <div class="card">
+                <div class="card__body">
+                    <h3>Scanner QR Code</h3>
+                    <p>Utilisez votre caméra ou chargez une image</p>
+                    
+                    <div class="scanner-controls">
+                        <button class="btn btn--primary" id="startCamera">Démarrer la caméra</button>
+                        <button class="btn btn--secondary" id="stopCamera" style="display: none;">Arrêter la caméra</button>
+                    </div>
+
+                    <div id="reader" style="display: none;"></div>
+                    
+                    <div class="upload-section">
+                        <h4>Ou chargez une image</h4>
+                        <input type="file" id="imageUpload" accept="image/*" class="form-control">
+                        <button class="btn btn--outline" id="scanImage">Scanner l'image</button>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="search">
+            <div class="card">
+                <div class="card__body">
+                    <h3>Rechercher par ID</h3>
+                    <p>Entrez l'ID du participant (ex: 1208041C)</p>
+                    
+                    <div class="form-group">
+                        <label for="searchInput" class="form-label">ID Participant</label>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Entrez l'ID du participant">
+                    </div>
+                    
+                    <button class="btn btn--primary" id="searchButton">Rechercher</button>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="scanResult" class="scan-result" style="display: none;">
+            <div class="card">
+                <div class="card__body">
+                    <h3>Résultat du scan</h3>
+                    <div id="scanResultContent"></div>
+                    <button class="btn btn--secondary" id="newScan">Nouveau scan</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="participantInfo" class="participant-info" style="display: none;">
+            <div class="card">
+                <div class="card__body">
+                    <h3>Informations du participant</h3>
+                    <div id="participantInfoContent"></div>
+                    <button class="btn btn--secondary" id="newSearch">Nouvelle recherche</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="statusMessage" class="status-message"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
