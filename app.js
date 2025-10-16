@@ -11202,16 +11202,16 @@ for (let device of devices) {
   }
 }
 
-      html5QrcodeScanner.start(
-        cameraId,
-        {
-          fps: 10,
-          qrbox: { width: 250, height: 250 }
-        },
-        (decodedText, decodedResult) => {
-          onScanSuccess(decodedText);
-        },
-        (errorMessage) => {
+     html5QrcodeScanner.start(
+  { facingMode: { exact: "environment" } }, // ← ce paramètre force la caméra arrière !
+  {
+    fps: 10,
+    qrbox: { width: 250, height: 250 }
+  },
+  (decodedText, decodedResult) => {
+    onScanSuccess(decodedText);
+  },
+  (errorMessage) => {
           // Ignore les erreurs répétées de scan
         }
       ).then(() => {
