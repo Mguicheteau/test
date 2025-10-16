@@ -1,6 +1,6 @@
 // Base de données intégrée des participants (anonymisée)
 const participantsDatabase = {
-  
+
   "8557E5C1": {
     "id": "8557E5C1",
     "name": "Participant 8557E5C1",
@@ -11194,7 +11194,13 @@ function startCamera() {
 
  Html5Qrcode.getCameras().then(devices => {
     if (devices && devices.length) {
-      const cameraId = devices[0].id;
+      let cameraId = devices[0].id;
+for (let device of devices) {
+  if (device.label.toLowerCase().includes('back') || device.label.toLowerCase().includes('environment')) {
+    cameraId = device.id;
+    break;
+  }
+}
 
       html5QrcodeScanner.start(
         cameraId,
