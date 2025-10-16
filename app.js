@@ -1,6 +1,6 @@
 // Base de données intégrée des participants (anonymisée)
 const participantsDatabase = {
-
+  
   "8557E5C1": {
     "id": "8557E5C1",
     "name": "Participant 8557E5C1",
@@ -268,8 +268,49 @@ const participantsDatabase = {
   "4BEC62CC": {
     "id": "4BEC62CC",
     "name": "Participant 4BEC62CC",
-    "region": "Inconnue",
-    "events": []
+    "region": "Nice-Corse",
+    "events": [
+      {
+        "name": "Histoire en musique Enfant",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Visite SHD",
+        "time": "Mardi 14h"
+      },
+      {
+        "name": "Visite SHD",
+        "time": "Mardi 14h"
+      },
+      {
+        "name": "Visite SHD",
+        "time": "Mardi 14h"
+      },
+      {
+        "name": "Visite SHD",
+        "time": "Mardi 14h"
+      }
+    ]
   },
   "98B27F1A": {
     "id": "98B27F1A",
@@ -729,8 +770,12 @@ const participantsDatabase = {
   "866DA5A2": {
     "id": "866DA5A2",
     "name": "Participant 866DA5A2",
-    "region": "Aix-Marseille",
+    "region": "Inconnue",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
       {
         "name": "Repas APMEP",
         "time": "Dimanche midi"
@@ -772,8 +817,12 @@ const participantsDatabase = {
   "4B53E2DE": {
     "id": "4B53E2DE",
     "name": "Participant 4B53E2DE",
-    "region": "Nice-Corse",
+    "region": "Inconnue",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
       {
         "name": "Repas APMEP",
         "time": "Dimanche midi"
@@ -841,7 +890,7 @@ const participantsDatabase = {
   "8F9A1E3F": {
     "id": "8F9A1E3F",
     "name": "Participant 8F9A1E3F",
-    "region": "Nice-Corse",
+    "region": "Inconnue",
     "events": [
       {
         "name": "Conférence L1-02",
@@ -852,7 +901,7 @@ const participantsDatabase = {
   "682EC733": {
     "id": "682EC733",
     "name": "Participant 682EC733",
-    "region": "Nice-Corse",
+    "region": "Inconnue",
     "events": [
       {
         "name": "Histoire en musique Adulte",
@@ -939,14 +988,18 @@ const participantsDatabase = {
   "374ADAC7": {
     "id": "374ADAC7",
     "name": "Participant 374ADAC7",
-    "region": "Grenoble",
+    "region": "Inconnue",
     "events": []
   },
   "444484BE": {
     "id": "444484BE",
     "name": "Participant 444484BE",
-    "region": "Haute-Normandie",
+    "region": "Inconnue",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
       {
         "name": "Conférence L1-02",
         "time": "Lundi 8h30"
@@ -1075,6 +1128,42 @@ const participantsDatabase = {
     "name": "Participant 85C96523",
     "region": "BELGIQUE",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
       {
         "name": "Repas APMEP",
         "time": "Mardi midi"
@@ -1840,6 +1929,42 @@ const participantsDatabase = {
     "region": "Bourgogne",
     "events": [
       {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
         "name": "Repas APMEP",
         "time": "Mardi midi"
       },
@@ -2027,6 +2152,42 @@ const participantsDatabase = {
     "name": "Participant D04FF2DA",
     "region": "Strasbourg",
     "events": [
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Visite Rade Enfant",
+        "time": "Dimanche 14h45"
+      },
+      {
+        "name": "Visite Rade Adulte",
+        "time": "Dimanche 14h45"
+      },
+      {
+        "name": "Visite Rade Adulte",
+        "time": "Dimanche 14h45"
+      },
       {
         "name": "Conférence L1-01",
         "time": "Lundi 8h30"
@@ -4204,6 +4365,42 @@ const participantsDatabase = {
     "region": "Poitou-Charentes",
     "events": [
       {
+        "name": "Histoire en musique Enfant",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Enfant",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Découverte ville",
+        "time": "Dimanche 9h15"
+      },
+      {
+        "name": "Découverte ville",
+        "time": "Dimanche 9h15"
+      },
+      {
+        "name": "Découverte ville",
+        "time": "Dimanche 9h15"
+      },
+      {
         "name": "Jeu enquête",
         "time": "Mardi 14h"
       },
@@ -4962,7 +5159,7 @@ const participantsDatabase = {
   "33BABDAD": {
     "id": "33BABDAD",
     "name": "Participant 33BABDAD",
-    "region": "Nice-Corse",
+    "region": "Inconnue",
     "events": []
   },
   "6DE13689": {
@@ -5473,6 +5670,42 @@ const participantsDatabase = {
     "name": "Participant 0C71C1B6",
     "region": "Nice-Corse",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
       {
         "name": "Repas APMEP",
         "time": "Mardi midi"
@@ -9713,6 +9946,42 @@ const participantsDatabase = {
     "region": "Lyon",
     "events": [
       {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Découverte ville",
+        "time": "Dimanche 9h15"
+      },
+      {
+        "name": "Visite Rade Adulte",
+        "time": "Dimanche 14h45"
+      },
+      {
+        "name": "Circuit Fontaines",
+        "time": "Lundi 9h30"
+      },
+      {
+        "name": "Jeu enquête",
+        "time": "Mardi 14h"
+      },
+      {
+        "name": "Visite SHD",
+        "time": "Mardi 14h"
+      },
+      {
         "name": "Visite SHD",
         "time": "Mardi 14h"
       }
@@ -9838,6 +10107,42 @@ const participantsDatabase = {
     "name": "Participant BC3BFC75",
     "region": "Strasbourg",
     "events": [
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
       {
         "name": "Repas APMEP",
         "time": "Mardi midi"
@@ -10626,6 +10931,42 @@ const participantsDatabase = {
     "region": "Picardie",
     "events": [
       {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
+        "name": "Découverte ville",
+        "time": "Dimanche 9h15"
+      },
+      {
+        "name": "Circuit Fontaines",
+        "time": "Lundi 9h30"
+      },
+      {
+        "name": "Visite Rade Adulte",
+        "time": "Mardi 13h30"
+      },
+      {
         "name": "Visite Rade Adulte",
         "time": "Mardi 13h30"
       }
@@ -11008,6 +11349,42 @@ const participantsDatabase = {
     "region": "Haute-Normandie",
     "events": [
       {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Histoire en musique Adulte",
+        "time": "Samedi 20h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Dimanche midi"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas Festif",
+        "time": "Lundi 19h30"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Lundi midi"
+      },
+      {
+        "name": "Repas APMEP",
+        "time": "Mardi midi"
+      },
+      {
         "name": "Repas APMEP",
         "time": "Mardi midi"
       },
@@ -11194,24 +11571,18 @@ function startCamera() {
 
  Html5Qrcode.getCameras().then(devices => {
     if (devices && devices.length) {
-      let cameraId = devices[0].id;
-for (let device of devices) {
-  if (device.label.toLowerCase().includes('back') || device.label.toLowerCase().includes('environment')) {
-    cameraId = device.id;
-    break;
-  }
-}
+      const cameraId = devices[0].id;
 
-     html5QrcodeScanner.start(
-  { facingMode: { exact: "environment" } }, // ← ce paramètre force la caméra arrière !
-  {
-    fps: 10,
-    qrbox: { width: 250, height: 250 }
-  },
-  (decodedText, decodedResult) => {
-    onScanSuccess(decodedText);
-  },
-  (errorMessage) => {
+      html5QrcodeScanner.start(
+        cameraId,
+        {
+          fps: 10,
+          qrbox: { width: 250, height: 250 }
+        },
+        (decodedText, decodedResult) => {
+          onScanSuccess(decodedText);
+        },
+        (errorMessage) => {
           // Ignore les erreurs répétées de scan
         }
       ).then(() => {
